@@ -1,10 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\huije\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\\uAC8C\uC784\uD559\uC6D0\\Program\\",
+  "WorkspaceRootPath": "C:\\Users\\huije\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\sbsgame\\Program\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{47182EA4-7B71-43B1-B239-1CE665DA91D5}|Program\\Program.vcxproj|C:\\Users\\huije\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\\uAC8C\uC784\uD559\uC6D0\\Program\\Program\\Source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{47182EA4-7B71-43B1-B239-1CE665DA91D5}|Program\\Program.vcxproj|C:\\Users\\huije\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\sbsgame\\Program\\Program\\Source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{47182EA4-7B71-43B1-B239-1CE665DA91D5}|Program\\Program.vcxproj|solutionrelative:Program\\Source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40B66AEA-A61E-4AF3-9BD0-B2558B944664}|Class1th (Compile)\\Class1th (Compile).vcxproj|C:\\Users\\huije\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\sbsgame\\Program\\Class1th (Compile)\\Source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{40B66AEA-A61E-4AF3-9BD0-B2558B944664}|Class1th (Compile)\\Class1th (Compile).vcxproj|solutionrelative:Class1th (Compile)\\Source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,17 +18,30 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Source.c",
+              "DocumentMoniker": "C:\\Users\\huije\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\sbsgame\\Program\\Class1th (Compile)\\Source.c",
+              "RelativeDocumentMoniker": "Class1th (Compile)\\Source.c",
+              "ToolTip": "C:\\Users\\huije\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\sbsgame\\Program\\Class1th (Compile)\\Source.c",
+              "RelativeToolTip": "Class1th (Compile)\\Source.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-11-13T09:14:52.133Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Source.c",
-              "DocumentMoniker": "C:\\Users\\huije\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\\uAC8C\uC784\uD559\uC6D0\\Program\\Program\\Source.c",
+              "DocumentMoniker": "C:\\Users\\huije\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\sbsgame\\Program\\Program\\Source.c",
               "RelativeDocumentMoniker": "Program\\Source.c",
-              "ToolTip": "C:\\Users\\huije\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\\uAC8C\uC784\uD559\uC6D0\\Program\\Program\\Source.c",
+              "ToolTip": "C:\\Users\\huije\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\sbsgame\\Program\\Program\\Source.c",
               "RelativeToolTip": "Program\\Source.c",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD4AAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2024-11-12T09:23:49.464Z",
               "EditorCaption": ""
