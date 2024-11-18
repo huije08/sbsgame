@@ -1,0 +1,3 @@
+﻿  Source.cpp
+C:\Users\huije\OneDrive\바탕 화면\sbsgame\Program\Class4th(Overflow & Underflow)\Source.cpp(12,6): warning C4326: return type of 'main' should be 'int' instead of 'void'
+LINK : fatal error LNK1168: cannot open C:\Users\huije\OneDrive\바탕 화면\sbsgame\Program\x64\Debug\Class4th(Overflow & Underflow).exe for writing

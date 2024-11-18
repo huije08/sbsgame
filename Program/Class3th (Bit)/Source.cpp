@@ -58,9 +58,10 @@ void main()
 
 #pragma region 부호 없는 자료형
 
-	unsigned short mineral = 65535;
-	
-	unsigned int gas
+	//unsigned short mineral = 65535;
+	//
+	//unsigned int gas
+	//
 
 #pragma endregion
 }
