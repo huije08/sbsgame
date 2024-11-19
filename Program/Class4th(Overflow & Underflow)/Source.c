@@ -101,27 +101,93 @@ void main()
 	// if 문과 else if문의 조건이 다 틀리면
 	// 실행되는 명령문 입니다.
 
-	int value = 0;
-
-	if (value > 0)
-	{
-		printf("value 값은 양수입니다.");
-	}
-	else if (value < 0)
-	{
-		printf("value 값은 음수입니다.");
-	}
-	else
-	{
-		printf("value 값은 음수도 양수도 아닙니다.\n");
-	}
+	//int value = 0;
+	//
+	//if (value > 0)
+	//{
+	//	printf("value 값은 양수입니다.");
+	//}
+	//else if (value < 0)
+	//{
+	//	printf("value 값은 음수입니다.");
+	//}
+	//else
+	//{
+	//	printf("value 값은 음수도 양수도 아닙니다.\n");
+	//}
 	
 
 	//if문에 연결된 모든 조건문의 조건이 맞을 때
 	//가장위에 있는 조건문만 실행됩니다.
 #pragma endregion
 
+#pragma region switch문
+	//어떤 결과에 따라 그 결과부터 실행되는 명령문 입니다.
+
+	//int secen = 1;
+#pragma region break문
+	//  특정한 지점에서 분기를 탈출하는 제어문 입니다.
+
+#pragma endregion
+
+	//char Key = 'w';
+	//
+	//switch (Key)
+	//{
+	//	// switch문은 해당 조건이 완료되었을 때, break
+	//	// 문이 없으면 나머지 밑에있는 case 문 까지
+	//	// 계속 실행시키다가 종료합니다.
+	//case 'w': printf("↑");
+	//	break;
+	//case 'a': printf("←");
+	//	break;
+	//case 's': printf("↓");
+	//	break;
+	//case 'd': printf("→");
+	//	break;
+	//default: printf("Exception");
+	//	break;
+	//}
 
 
 #pragma endregion
+
+#pragma region 논리연산자
+
+#pragma region AND연산자
+	//int level = 99;
+	//int exp = 10000;
+	//
+	//if (level >= 99 && exp >= 5000)
+	//{
+	//	printf("전직을 할 수 있습니다/\n");
+	//}
+#pragma endregion
+
+#pragma region OR 연산자
+
+//int questA = 10;
+//int questB = 0;
+//
+//if (questA >= 10 || questB >= 10)
+//{
+//	printf("퀘스트 클리어\n");
+//}
+
+#pragma endregion
+
+#pragma region NOT 연산자
+//
+//int state = 0;
+//
+//if (!state)
+//{
+//	printf("Game start");
+//}
+#pragma endregion
+
+
+#pragma endregion
+
+
 }
