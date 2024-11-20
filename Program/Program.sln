@@ -11,7 +11,9 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Class3th (Bit)", "Class3th 
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Class4th(Overflow & Underflow)", "Class4th(Overflow & Underflow)\Class4th(Overflow & Underflow).vcxproj", "{21F8C05F-266D-420B-8564-B003ABC26206}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Class5th (Concil", "Class5th (Concil\Class5th (Concil.vcxproj", "{ACB2F611-A233-44CA-871D-0CA95D9B7A01}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Class5th (Conditional Statement)", "Class5th (Concil\Class5th (Concil.vcxproj", "{ACB2F611-A233-44CA-871D-0CA95D9B7A01}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Class6th (Type conversion)", "Class6th (Type conversion)\Class6th (Type conversion).vcxproj", "{FACC22DD-9FC2-44C5-ABD3-FF652CE9C643}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -61,6 +63,14 @@ Global
 		{ACB2F611-A233-44CA-871D-0CA95D9B7A01}.Release|x64.Build.0 = Release|x64
 		{ACB2F611-A233-44CA-871D-0CA95D9B7A01}.Release|x86.ActiveCfg = Release|Win32
 		{ACB2F611-A233-44CA-871D-0CA95D9B7A01}.Release|x86.Build.0 = Release|Win32
+		{FACC22DD-9FC2-44C5-ABD3-FF652CE9C643}.Debug|x64.ActiveCfg = Debug|x64
+		{FACC22DD-9FC2-44C5-ABD3-FF652CE9C643}.Debug|x64.Build.0 = Debug|x64
+		{FACC22DD-9FC2-44C5-ABD3-FF652CE9C643}.Debug|x86.ActiveCfg = Debug|Win32
+		{FACC22DD-9FC2-44C5-ABD3-FF652CE9C643}.Debug|x86.Build.0 = Debug|Win32
+		{FACC22DD-9FC2-44C5-ABD3-FF652CE9C643}.Release|x64.ActiveCfg = Release|x64
+		{FACC22DD-9FC2-44C5-ABD3-FF652CE9C643}.Release|x64.Build.0 = Release|x64
+		{FACC22DD-9FC2-44C5-ABD3-FF652CE9C643}.Release|x86.ActiveCfg = Release|Win32
+		{FACC22DD-9FC2-44C5-ABD3-FF652CE9C643}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
