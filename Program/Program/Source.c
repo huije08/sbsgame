@@ -2,76 +2,54 @@
 
 void main()
 {
-#pragma region 반복문
-	// 프로그램 내에서 특정한 작업을 반복적으로 
-	// 수행하는 명령문 입니다.
+#pragma region 주소 연산자
+	//변수의 주소 값을 반환하는 연산자입니다.
 
-#pragma region 증감연산자
-	// 피연산자를 하나씩 증가시키거나 감소시킬때
-	// 사용하는 연산자 입니다.
-	   
-	//int x = 0;
-	//
-	//int vectorX = ++x;
+	//데이터의 주소 값은 해당 데이터가 저장된 메모리
+	//의 시작 주소를 의미하며, 메모리의 공간은 1byte
 
-	//printf("전위 증가한 x의 값 : %d\n", x);//1
-	//printf("vectorX의 값: %d\n", vectorX);//1
-	
-	//vectorX = --x;
+	//int i = 10;
 	//
-	//printf("전위 증가한 x의 값 : %d\n", x);//0
-	//printf("vectorX의 값: %d\n", vectorX);//0
-	
-	// 전위 증감 연산자는 변수의 값을 증감시킨 후에
-	// 연산을 수행합니다.
-	   
-	//int y = 0;
+	//printf("i의 주소 : %p", i);
 	//
-	//int vectorY = y++;
 	//
-	//printf("후위 증가한 y의 값 : %d\n", y);
-	//printf("vectorY의 값: %d\n", vectorY);
 	//
-	//vectorY = y--;
-	//
-	//printf("후위 감소한 y의 값 : %d\n", y);
-	//printf("vectorY의 값: %d\n", vectorY);
-
-	// 후위 증감 연산자는 연산을 수행한 후에
-	// 변수의 값을 증감시킵니다.
 #pragma endregion
 
-#pragma region for문
-	// 초기식을 연산하여 조건식의 결과에 따라 특정한
-	// 횟수만큼 반복하는 반복문입니다.
+#pragma region scanf함수
+	//표준 입력 함수로, 여러 종류의 데이터를 다양한
+	//서식에 맞추어 입력해주는 함수입니다.
 
-	// for문의 경우 조건이 끝나는 형태와 반대로 초기식을
-	// 연산하게 되면 조건이 일치하지않아 계속 반복적으로 
-	// 실행되는 문제가 발생합니다.
+	int score = 0;
 
-	//for (int i = 0; i < 5; i++)
-	//{
-	//	printf("%d\n", i);
-	//}
-#pragma endregion
+	//표준 입력 함수는 입력을 수행할 때까지 다음
+	//작업으로 넘어갈 수 없습니다.
 
-#pragma region while문
-	// 특정 조건을 만족할떄까지 계속해서 주어진 
-	// 명령문을 실행하는 반복문입니다
+	//scanf_s(" %d", &score);
 
-	//int i = 1;
-	//while (i<6)
-	//{
-	//	printf("%d\n", i);
-	//	i++;
-	//}
+	//버퍼는 데이터가 이동할 때 임시로 저장되는 공간이며,
+	//서식 지정자에 따라 입력할 수 있는 데이터의 범위도 결정됩니다.
+	//printf("score의 값" ,score);
 
-	// while문의 경우 위에서 아래로 실행되며, 
-	// 아래에 있는 명령문의 실행이 다 끝나면 
-	// 다시 위에있는 명령문으로 돌아가서 실행합니다.
-#pragma endregion
+	//표준 입력 함수로 데이터를 입력하게되면
+	//버퍼에 데이터를 보관하였다가 입력하는 순간
+	//버퍼 안의 내용을 프로그램에 전송합니다.
+
+	printf("출력할 개수를 입력하시오");
+
+	scanf_s(" %d", &score);
+
+	for ( int i = 1; i <= score; i++)
+	{
+		for (int j = 1; j <= i; j++)
+		{
+			printf("*");
+		}
+		printf("\n");
+	}
 
 
 #pragma endregion
+
 
 }
