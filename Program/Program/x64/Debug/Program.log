@@ -1,2 +1,8 @@
 ﻿  Source.c
+C:\Users\huije\OneDrive\바탕 화면\sbsgame\Program\Program\Source.c(83,10): warning C4133: '=': incompatible types - from 'float *' to 'int *'
+C:\Users\huije\OneDrive\바탕 화면\sbsgame\Program\Program\Source.c(85,13): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\huije\OneDrive\바탕 화면\sbsgame\Program\Program\Source.c(92,9): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'size_t'
+      C:\Users\huije\OneDrive\바탕 화면\sbsgame\Program\Program\Source.c(92,9):
+      consider using '%zd' in the format string
+  
   Program.vcxproj -> C:\Users\huije\OneDrive\바탕 화면\sbsgame\Program\x64\Debug\Program.exe
