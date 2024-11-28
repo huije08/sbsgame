@@ -27,14 +27,37 @@ int Compare(float x, float y)
 	}
 }
 
-void Swap(int left, int right)
+void Swap(int * left, int * right)
 {
-	int temporary = left;
-	left = right;
-	right = temporary;
+	int temporary = *left;
 
+	*left = *right;
+
+	*right = temporary;
 }
 
+inline void Process(float progress)
+{
+	//printf("Progress : %f\n" progress);
+
+	// 인라인 함수는 컴파일 시점에 확장되며, 컴파일
+	// 시 인라인 함수로 선언하더라도 상황에따라
+	// 일반함수로 전환됩니다
+}
+
+void Recursive(int count)
+{
+	printf("Recursive function\n");
+
+	if (count > 0)
+	{
+		Recursive(count - 1);
+	}
+	else
+	{
+		return;
+	}
+}
 
 void main()
 {
@@ -70,12 +93,13 @@ void main()
 
 #pragma region 인수
 
-	int a = 10;
-	int b = 20;
-
-
-	printf("a = %d\n", a);
-	printf("b = %d\n", b);
+	//int a = 10;
+	//int b = 20;
+	//
+	//Swap(&a, &b);
+	//
+	//printf("a = %d\n", a);
+	//printf("b = %d\n", b);
 
 	// 함수가 호출될 때 매개 변수의 수에 따라
 	// 전달할 수 있는 인수의 수가 결정되며, 값을 전달하는
@@ -83,5 +107,22 @@ void main()
 
 #pragma endregion
 
+#pragma region 인라인 함수
+	// 함수를 호출하는 대신 함수가 호출되는 위치마다
+	// 함수의 코드를 복사하여 전달하는 방식의 함수입니다.
+
+	//Process(46.7f);
+
+	// 인라인 함수는 함수를 호출하는 과정이 없으므로 
+	// 빠르지만, 인라인 함수를 많이 사용하게 되면 함수의 코드가
+	// 
+#pragma endregion
+
+#pragma region 재귀 함수
+	// 어떤 함수에서 자신을 다시 호출하여 작업을
+	// 수행하는 함수입니다.
+	//Recursive(3);
+
+#pragma endregion
 
 }
